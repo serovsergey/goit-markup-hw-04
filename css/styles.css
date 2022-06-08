@@ -116,6 +116,15 @@ p {
   fill: var(--secondary-text-color);
 }
 .header-addresses .email-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.header-addresses .tel-icon {
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -235,6 +244,11 @@ footer {
   margin-bottom: 30px;
 }
 
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .feature-list .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -305,6 +319,11 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .team-list .network-link {
