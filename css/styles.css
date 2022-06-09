@@ -50,15 +50,17 @@ p {
   margin: 0 auto;
 }
 
-.hidden {
+.visually-hidden {
   position: absolute;
-  height: 1px;
+  white-space: nowrap;
   width: 1px;
-  margin: -1px;
-  padding: 0;
+  height: 1px;
   overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Header */
@@ -175,7 +177,7 @@ footer {
 }
 
 .hero.section {
-  height: 600px;
+  height: 600px; /* calc(100vh - 80px) */
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
